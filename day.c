@@ -1,33 +1,33 @@
 #include<stdio.h>
 void main()
 {
- char day[100];
+ char day;
  printf("\nenter a day");
- scanf("%s",&day);
+ scanf("%c",&day);
  switch(day)
  {
-    case "Sunday":
+    case 'S':
         printf("\nholiday");
         break;
-    case "Monday":
+    case 'M':
         printf("\nworking day");
         break;
-    case "Tuesday":
+    case 'T':
         printf("\nworking day");
         break;
-    case  "Wednesday":
+    case  'W':
         printf("\nworking day");
         break;
-    case  "Thursday":
+    case  'H':
         printf("\nworking day");
-     case  "Friday";
+    case  'F':
         printf("\nworking day");
         break;
-      case "Saturday":
+    case 'A':
           printf("\nHoliday");
           break;
-       default:
-          printf("\n Days are not given");
-      
+     default:
+          printf("\n Days are not given");   
+}
 }
   
