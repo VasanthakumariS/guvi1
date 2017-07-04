@@ -11,7 +11,7 @@ void main()
     n=n/10;
     sum=sum+(r*r*r);
   }
-  if(sum==n)
+  if(sum==temp)
   {
     printf("\n Given number is a armstrong number");
   }
